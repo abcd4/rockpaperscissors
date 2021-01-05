@@ -4,6 +4,26 @@
 
 //GLOBAL VARIABLES
 /* global $ */
+$("#shoot").click(function(){
+  let comp = Math.ceil(Math.random()*3);
+  let computerChoice;
+  console.log(comp);
+  if (comp ==1){
+    computerChoice = "rock";
+} else if(comp ==2){
+  computerChoice = "paper";
+} else {
+  computerChoice = "scissors"
+    }
+  console.log(computerChoice);
+  $("#computerChoice").text(computerChoice)
+  
+  let message = 
+      
+})
 
+// $(".a-class").click(function(){
+//   $("img").hide();
+// });
 
 
